@@ -1,24 +1,24 @@
-# README
+# Ruby on Rails Tutorial for gem Stripe
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Contents
 
-Things you may want to cover:
+In this repo, you will find the minimum settings needed to install and test the gem Stripe.
 
-* Ruby version
+## How to use
 
-* System dependencies
+1. Download this repo
+2. Do a `bundle install`
 
-* Configuration
+And you are ready to use it !
 
-* Database creation
+## Links
 
-* Database initialization
+This repo is related to an article I wrote on Medium :
 
-* How to run the test suite
+- in french
 
-* Services (job queues, cache servers, search engines, etc.)
+- in english
 
-* Deployment instructions
+Hope you enjoy it !
 
-* ...
+### Maxime WONG
