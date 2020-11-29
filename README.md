@@ -1,24 +1,33 @@
-# README
+# Ruby on Rails Tutorial for gem Stripe
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Contents
 
-Things you may want to cover:
+In this repo, you will find the minimum settings needed to install and test the gem Stripe.
 
-* Ruby version
+## How to use
 
-* System dependencies
+1. Download this repo
+2. Do a `bundle install`
+3. `rails db:create`
+4. `rails db:migrate`
+5. In rails console
+    1. Create a user `User.create(nickname: "Bloup", email: "bloup@test.test")` 
+    2. Create an item `Item.create(title: "Test product", price: 12.34)`
+6. Launch a local server with `rails server`
+7. With you favorite web browser, go to http://localhost:3000/
+8. To test Stripe, click on the "pay" button and respect the following conditions
+    * Email sould be at least "t@t.t"
+    * Card number must be 4242 4242 4242 4242
+    * MM/YY must be in the future
+    * CVC is 3 numbers
+    * Check the box if you don't want to enter these informations again (you can cancel that choice the next time you open the form)
 
-* Configuration
+And that's it !
 
-* Database creation
+## Links
 
-* Database initialization
+This repo is related to an article I wrote on [Medium in french](https://medium.com/@maximewong/fr-ruby-on-rails-comment-installer-la-gem-stripe-tutoriel-et-cas-simple-dutilisation-4e95a278846a) 
 
-* How to run the test suite
+Hope you enjoy it !
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Maxime WONG
