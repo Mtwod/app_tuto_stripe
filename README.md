@@ -26,7 +26,7 @@ And that's it !
 
 ## Links
 
-This repo is related to an article I wrote on Medium in french : 
+This repo is related to an article I wrote on [Medium in french](https://medium.com/@maximewong/fr-ruby-on-rails-comment-installer-la-gem-stripe-tutoriel-et-cas-simple-dutilisation-4e95a278846a) 
 
 Hope you enjoy it !
 
